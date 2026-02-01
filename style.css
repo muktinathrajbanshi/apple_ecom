@@ -8,6 +8,9 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   min-height: 100vh;
   background: #81ecec;
@@ -47,8 +50,9 @@ body {
 }
 
 img {
-  height: 100px;
+  height: 30rem;
   width: 75%;
+  margin-top: -2.5rem;
   padding: 1rem;
 }
 
