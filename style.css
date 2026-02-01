@@ -17,6 +17,12 @@ body {
   font-size: 0.8rem;
 }
 
+.col-12,
+.col-md-9 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 .card {
   width: 100%;
   padding: 4em;
@@ -73,4 +79,12 @@ img {
 
 .price {
   margin-top: 2rem;
+}
+
+label.radio span {
+  padding: 1vh 4vh;
+  background: rgb(54, 54, 54);
+  color: grey;
+  display: inline-block;
+  margin-left: 2vh;
 }
