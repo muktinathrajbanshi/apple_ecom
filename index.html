@@ -9,7 +9,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="container">
@@ -73,23 +73,29 @@
                         </div>
                     </div>
 
-                </div>
+                    <div class="row lower">
+                        <div class="col">
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                               <i class="fas fa-arrow-left"></i>
+                            </a>
+                            <a class="carousel-control-next" href="#demo" data-slide="next">
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="col text-right align-self-center">
+                            <button class="btn">Add to</button>
+                        </div>
+                    </div>
 
+                </div>
             </div>
             <div class="carousel-item">
             <img src="chicago.jpg" alt="Chicago">
             </div>
             
         </div>
-
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-
+        
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
