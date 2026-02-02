@@ -214,3 +214,24 @@ a:hover {
     padding: 1.2vh;
   }
 }
+
+@media (max-width: 480px) {
+  .card {
+    padding: 1rem;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-size: 1rem;
+  }
+
+  .fa-heart {
+    font-size: 1.5rem;
+  }
+
+  label.radio span {
+    width: 100%;
+    text-align: center;
+  }
+}
