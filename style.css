@@ -148,3 +148,69 @@ label.radio {
 .lower .btn:hover {
   color: #fff;
 }
+
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 0.75rem;
+    padding: 1rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    padding: 0.5rem;
+  }
+
+  .info {
+    padding: 2vh 0;
+  }
+
+  .price {
+    margin-top: 1rem;
+  }
+
+  label.radio span {
+    padding: 0.8vh 2vh;
+    margin-bottom: 1vh;
+    display: inline-block;
+  }
+
+  #reviews {
+    margin-left: 0;
+    display: block;
+    margin-top: 0.5rem;
+  }
+
+  .carousel-control-next {
+    left: 2vh;
+  }
+
+  .lower {
+    margin-top: 1.5rem;
+  }
+
+  .lower .col {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .lower i {
+    padding: 1.8vh;
+    margin-bottom: 1vh;
+  }
+
+  .lower .btn {
+    width: 100%;
+    padding: 1.2vh;
+  }
+}
