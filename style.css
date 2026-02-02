@@ -104,3 +104,47 @@ label.radio input {
   visibility: hidden;
   pointer-events: none;
 }
+
+label.radio {
+  cursor: pointer;
+}
+
+.carousel-control-prev {
+  width: 0;
+}
+
+.carousel-control-next {
+  left: 4vh;
+  right: unset;
+}
+
+.lower {
+  margin-top: 2rem;
+}
+
+.lower i {
+  padding: 2.5vh;
+  margin-right: 1vh;
+  color: grey;
+  border: 1px solid rgb(85, 85, 85);
+}
+
+.lower .col {
+  padding: 0;
+}
+
+.lower .btn {
+  background: transparent;
+  border-color: rgb(255, 217, 0);
+  color: rgb(255, 217, 0);
+  padding: 1.5vh 4vh;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.lower .btn:hover {
+  color: #fff;
+}
