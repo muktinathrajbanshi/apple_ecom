@@ -42,7 +42,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.path a {
+.card .path a {
   color: #fff;
 }
 
@@ -122,12 +122,12 @@ label.radio {
   margin-top: 2rem;
 }
 
-.lower i {
+/* .lower i {
   padding: 2.5vh;
   margin-right: 1vh;
   color: grey;
   border: 1px solid rgb(85, 85, 85);
-}
+} */
 
 .lower .col {
   padding: 0;
@@ -231,7 +231,7 @@ a:hover {
   }
 
   label.radio span {
-    width: 100%;
+    width: 90%;
     text-align: center;
   }
 }
